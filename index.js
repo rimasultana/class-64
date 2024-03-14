@@ -4,15 +4,15 @@ const person = {
     lastName: "Sultana",
     id: 5893,
     fullName: function() {
-        return this.firstName + " " + this.lastName;
+        return this.firstName + " " + this.lastName.toUpperCase();
     }
 };
  console.log(person.fullName());
 
 
 
- let message = "Hello World";
+//  let message = "Hello World";
 
- let x = message.toUpperCase();
+//  let x = message.toUpperCase();
 
- console.log(x);
+//  console.log(x);

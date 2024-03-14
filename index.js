@@ -8,3 +8,11 @@ const person = {
     }
 };
  console.log(person.fullName());
+
+
+
+ let message = "Hello World";
+
+ let x = message.toUpperCase();
+
+ console.log(x);
